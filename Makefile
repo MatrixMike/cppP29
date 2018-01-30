@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-c -Wall
+CFLAGS=-g -c -Wall
 LDFLAGS=
 SOURCES=file1.c file2.c file3.c
 OBJECTS=$(SOURCES:.c=.o)
