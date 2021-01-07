@@ -13,12 +13,18 @@ extern int max(int a, int b);
 
 int main()
 {
+
+/*
 	int c;
 	int d;
+*/
 
 	extern int u;
 
+/*
 	static int v;
+*/
+
 
 	int w = ONE, x = TWO, y = THREE;
 

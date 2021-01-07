@@ -6,7 +6,7 @@ OBJECTS=$(SOURCES:.c=.o)
 EXECUTABLE=newprog
 
 clean: 
-	rm *.o *~
+	rm *.o *~ $(EXECUTABLE)
 
 all: $(SOURCES) $(EXECUTABLE)
 
