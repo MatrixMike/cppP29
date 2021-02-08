@@ -5,10 +5,12 @@ SOURCES=file1.c file2.c file3.c
 OBJECTS=$(SOURCES:.c=.o)
 EXECUTABLE=newprog
 
+all: $(SOURCES) $(EXECUTABLE)
+
 clean: 
 	rm *.o *~ $(EXECUTABLE)
 
-all: $(SOURCES) $(EXECUTABLE)
+
 
 
 $(EXECUTABLE): $(OBJECTS)
